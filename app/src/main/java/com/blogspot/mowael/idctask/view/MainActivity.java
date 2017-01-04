@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements PresenterOperatio
     }
 
     /**
-     *
+     * It is recommended to use a form of dependency injection to instantiating the Layers
      */
     private void setUpMVP() {
         Presenter mPresenter = new Presenter(this);
