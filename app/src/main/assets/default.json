@@ -1,0 +1,23 @@
+﻿{  
+   "message":"default",
+   "code":"2",
+   "files":[  
+      {  
+         "id":"76",
+         "name":"Task Floor",
+         "url":"http://icitynewcairo.com:8181/ncc/NCC/PDF/English/X-Tech EpoxyFloor TF.pdf",
+         "status":"downloaded"
+      },
+      {  
+         "id":"76",
+         "name":"Epoxy Floor",
+         "url":"http://icitynewcairo.com:8181/ncc/NCC/PDF/English/X-Tech EpoxyFloor TF.pdf"
+      },
+      {  
+         "id":"76",
+         "name":"Nova Floor",
+         "url":"http://icitynewcairo.com:8181/ncc/NCC/PDF/English/X-Tech NovaFloor SF.pdf",
+         "status":"Not specified"
+      }
+   ]
+}
