@@ -19,6 +19,7 @@ public class FileRowViewHolder extends RecyclerView.ViewHolder {
 
     /***
      * initializing the row view of the Recyclerviewer
+     *
      * @param itemView the row view in the main_content_row.xml
      */
     public FileRowViewHolder(View itemView) {

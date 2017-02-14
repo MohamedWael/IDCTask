@@ -5,8 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Environment;
+import android.support.annotation.UiThread;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -94,9 +94,9 @@ public class Presenter implements RequiredModelOperations, ViewOperationsToPrese
 //                int readPermissionCheck = ContextCompat.checkSelfPermission(getActivityContext(),
 //                        Manifest.permission.READ_EXTERNAL_STORAGE);
 //
-                if (Build.VERSION.SDK_INT < 19) {
-                    getView().requestPermition();
-                }
+//                if (Build.VERSION.SDK_INT < 19) {
+//                    getView().requestPermition();
+//                }
                 // the response and the error listener of the download request added to them a listener
                 // which listens for the progress upgrading and whether the download completed
                 DownloadResponseListener downloadResponseListener = new DownloadResponseListener(new FileLoadedListener() {
@@ -124,8 +124,6 @@ public class Presenter implements RequiredModelOperations, ViewOperationsToPrese
                     holder.progressBar.setProgress(0);
                     mModel.downloadPdfFile(item, downloadResponseListener);
                 }
-
-
             }
         });
     }
