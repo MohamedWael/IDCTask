@@ -1,4 +1,4 @@
-# IDCTask
+# IDSTask
 A practice on the MVP architectural pattern
 
 It is assumed to get list of files and display them in a recyclerview with a textview, a download Button, and a progress bar.
